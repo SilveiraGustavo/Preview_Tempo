@@ -1,4 +1,4 @@
-let chaveAPI = "2d7c6aa6710ea3b17a87c10982504c45";
+let chaveAPI = "chave";
 let sliderElement = document.querySelector(".slider");
 
 function onPrees(){
