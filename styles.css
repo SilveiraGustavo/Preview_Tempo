@@ -1,0 +1,96 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.container {
+    background-color: #000;
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 24px;
+    width: 95%;
+    max-width: 450px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc( 100% - 100px);
+}
+
+button {
+    border: none;
+    outline: none; /* Para retirar uma pequena borda azul no Botão */
+    padding: 10px; /* Espaçamento interno*/
+    border-radius: 45px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.buscador {
+    width: 28px;
+}
+
+.container-Form {
+    margin-top: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px; /* tamanho do texto */
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.temp {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.container-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.descricao {
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+}
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+
+
+
+
